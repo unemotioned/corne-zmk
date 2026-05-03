@@ -26,63 +26,63 @@
         less_then {
             bindings = <&kp LESS_THAN>;
             key-positions = <31 32>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0 1 4 5>;
         };
 
         greater_then {
             bindings = <&kp GREATER_THAN>;
             key-positions = <32 33>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0 1 4 5>;
         };
 
         mac_undo {
             bindings = <&kp LG(Z)>;
             key-positions = <25 26>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0>;
         };
 
         mac_cut {
             bindings = <&kp LG(X)>;
             key-positions = <26 28>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0>;
         };
 
         mac_copy {
             bindings = <&kp LG(C)>;
             key-positions = <26 27>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0>;
         };
 
         mac_paste {
             bindings = <&kp LG(V)>;
             key-positions = <27 28>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0>;
         };
 
         win_undo {
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <4>;
         };
 
         win_copy {
             bindings = <&kp LC(C)>;
             key-positions = <26 27>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <4>;
         };
 
         win_paste {
             bindings = <&kp LC(V)>;
             key-positions = <27 28>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <4>;
         };
     };
