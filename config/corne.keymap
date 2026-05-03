@@ -85,36 +85,6 @@
             timeout-ms = <75>;
             layers = <4>;
         };
-
-        grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <15 16>;
-            timeout-ms = <75>;
-            layers = <0 4>;
-        };
-
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <14 15>;
-            timeout-ms = <75>;
-            layers = <0 4>;
-        };
-
-        bslh {
-            bindings = <&kp BSLH>;
-            key-positions = <19 20>;
-            timeout-ms = <50>;
-            layers = <0 4>;
-            slow-release;
-            require-prior-idle-ms = <100>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <20 21>;
-            timeout-ms = <75>;
-            layers = <0 4>;
-        };
     };
 
     macros {
