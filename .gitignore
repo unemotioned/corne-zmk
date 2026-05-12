@@ -1,0 +1,11 @@
+.west/
+build/
+modules/
+output/
+zephyr/
+zmk/
+
+output/
+
+.DS_Store
+.localized
