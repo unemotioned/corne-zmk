@@ -86,14 +86,12 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <31 32>;
-            timeout-ms = <35>;
             layers = <0 4>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <32 33>;
-            timeout-ms = <35>;
             layers = <0 4>;
         };
 
