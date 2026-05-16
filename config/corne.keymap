@@ -106,6 +106,22 @@
             key-positions = <32 33>;
             layers = <1 5>;
         };
+
+        youtube_normal {
+            bindings = <&youtube_normal>;
+            key-positions = <14 15>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0 4>;
+        };
+
+        youtube_double {
+            bindings = <&youtube_double>;
+            key-positions = <15 16>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0 4>;
+        };
     };
 
     macros {
@@ -119,6 +135,19 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(U) &kp N &kp LS(E) &kp M &kp O &kp T &kp I &kp O &kp N &kp E &kp LS(D)>;
+        };
+
+        // Change YouTube playback speed after entering input mode of Vimium
+        youtube_normal: youtube_normal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp LT &kp LT &kp LT &kp LT &kp ESC>;
+        };
+
+        youtube_double: youtube_double {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp GT &kp GT &kp GT &kp GT &kp ESC>;
         };
     };
 
