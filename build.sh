@@ -18,8 +18,9 @@ ROOT_DIR="$SCRIPT_DIR"
 # activate python venv
 source "$venv_dir/bin/activate"
 
-# source Zephyr SDK env var
-source "$SCRIPT_DIR/zephyr_env.sh"
+# export Zephyr SDK env var
+export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
+export ZEPHYR_SDK_INSTALL_DIR=$HOME/zephyr-sdk-0.17.0
 
 # make sure west to use repo dir
 cd "$ROOT_DIR"
