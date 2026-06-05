@@ -45,6 +45,7 @@ build_target() {
         -s zmk/app \
         -- \
         -DSHIELD="$shield" \
+        -DZephyr_DIR="$ROOT_DIR/zephyr/share/zephyr-package/cmake" \
         -DZMK_CONFIG="$ROOT_DIR/config" \
         -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 }
