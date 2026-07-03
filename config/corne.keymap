@@ -31,7 +31,6 @@
         mac_cut {
             bindings = <&kp LG(X)>;
             key-positions = <26 28>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -39,7 +38,6 @@
         mac_copy {
             bindings = <&kp LG(C)>;
             key-positions = <26 27>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -47,7 +45,6 @@
         mac_paste {
             bindings = <&kp LG(V)>;
             key-positions = <27 28>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -55,7 +52,6 @@
         mac_undo {
             bindings = <&kp LG(Z)>;
             key-positions = <25 26>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -63,7 +59,6 @@
         win_cut {
             bindings = <&kp LC(X)>;
             key-positions = <26 28>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <4>;
         };
@@ -71,7 +66,6 @@
         win_copy {
             bindings = <&kp LC(C)>;
             key-positions = <26 27>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <4>;
         };
@@ -79,7 +73,6 @@
         win_paste {
             bindings = <&kp LC(V)>;
             key-positions = <27 28>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <4>;
         };
@@ -87,7 +80,6 @@
         win_undo {
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <4>;
         };
@@ -95,7 +87,6 @@
         sqt {
             bindings = <&kp SQT>;
             key-positions = <19 20>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
@@ -103,7 +94,6 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <20 21>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
@@ -111,7 +101,6 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <31 32>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
@@ -119,7 +108,6 @@
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <32 33>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
@@ -127,7 +115,6 @@
         lt {
             bindings = <&kp LT>;
             key-positions = <31 32>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <1 5>;
         };
@@ -135,7 +122,6 @@
         gt {
             bindings = <&kp GT>;
             key-positions = <32 33>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <1 5>;
         };
@@ -143,7 +129,6 @@
         youtube_speed_down {
             bindings = <&youtube_speed_down>;
             key-positions = <14 15>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
@@ -151,7 +136,6 @@
         youtube_speed_up {
             bindings = <&youtube_speed_up>;
             key-positions = <15 16>;
-            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0 4>;
         };
