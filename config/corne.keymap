@@ -166,13 +166,6 @@
             bindings = <&kp I &kp GT &kp GT &kp GT &kp GT &kp ESC>;
         };
 
-        ij_search_everywhere: ij_search_everywhere {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp LSHFT>;
-            label = "IJ_SEARCH_EVERYWHERE";
-        };
-
         center_window: center_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -244,10 +237,10 @@
 
         mac_util {
             bindings = <
-&trans  &none  &none  &none   &none                  &bt BT_CLR    &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &trans
-&trans  &none  &none  &none   &ij_search_everywhere  &none         &to 4   &kp LS(LG(N4))  &kp LS(LG(N3))  &kp LS(LG(N5))  &none         &trans
-&trans  &none  &none  &none   &none                  &none         &none   &my_email       &my_alias       &syusyuk        &none         &trans
-                      &trans  &trans                 &trans        &trans  &trans          &trans
+&trans  &kp LG(N6)  &kp LG(F12)        &kp LG(N4)      &kp LA(LG(R))  &none     &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &trans
+&trans  &kp LG(N1)  &kp LS(LA(LG(E)))  &kp LS(LG(O))   &kp LS(LG(A))  &none     &to 4       &kp LS(LG(N4))  &kp LS(LG(N3))  &kp LS(LG(N5))  &none         &trans
+&trans  &kp LG(N)   &kp LS(F6)         &kp LA(LG(F7))  &kp LA(LG(L))  &none     &none       &my_email       &my_alias       &syusyuk        &none         &trans
+                                       &trans          &trans         &trans    &trans      &trans          &trans
             >;
         };
 
@@ -280,10 +273,10 @@
 
         win_util {
             bindings = <
-&trans  &none  &none  &none   &none                  &bt BT_CLR    &none   &bt BT_SEL 0     &bt BT_SEL 1         &bt BT_SEL 2             &bt BT_SEL 3    &trans
-&trans  &none  &none  &none   &ij_search_everywhere  &to 0         &none   &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(LC(PRINTSCREEN))  &center_window  &trans
-&trans  &none  &none  &none   &none                  &none         &none   &my_email        &my_alias            &syusyuk                 &none           &trans
-                      &trans  &trans                 &trans        &trans  &trans           &trans
+&trans  &kp LA(N6)   &kp LA(F12)        &kp LA(N4)      &kp LS(F10)    &none     &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1         &bt BT_SEL 2             &bt BT_SEL 3    &trans
+&trans  &kp LA(N1)   &kp LS(LA(LC(E)))  &kp LS(LC(N))   &kp LS(LC(A))  &to 0     &none       &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(LC(PRINTSCREEN))  &center_window  &trans
+&trans  &kp LA(INS)  &kp LS(F6)         &kp LA(LC(F7))  &kp LA(LC(L))  &none     &none       &my_email        &my_alias            &syusyuk                 &none           &trans
+                                        &trans          &trans         &trans    &trans      &trans           &trans
             >;
         };
 
